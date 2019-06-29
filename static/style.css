@@ -1,0 +1,182 @@
+body{
+    /* background-color: #659dbd  */
+    /* background-color: #5cdb95 */
+    /* background-color: #97caef */
+    /* background-color: #2f2fa2   */
+    background-color: #659dbd;
+    
+
+
+}
+#logo{
+    width: 400px;
+    height: 100px;
+    padding-left: 15px;
+}
+.vision_mission{
+    margin: 0px 150px;
+    padding: 0px 150px 40px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+}
+
+.calculator{
+    padding-right:100px;
+}
+#calc-contain{
+        display: none;
+        width: 260px;
+        position: absolute;
+        border: 1px solid green;
+        border-radius: 8px;
+        margin: 0px 80%;
+        padding: 20px 10px;
+        background-color: #659dbd;
+        z-index: 10;
+}
+#agh{
+    position: relative;
+    float: right;
+    margin-top: 15px;
+}
+#agh p{
+    font-size: 20px;
+    font-weight: 900;
+}
+input[type=button] {
+    background: lightGray;
+    width: 15%;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 7px;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+input[type=button]:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+input[type=button]:hover {
+    background-color: #003300;
+    color: white;
+}
+
+input[type = text] {
+    position: relative;
+    display: block;
+    width: 80%;
+    margin: 5px auto;
+    font-size: 20px;
+    padding: 10px;
+   box-shadow: 4px 0px 12px black inset;
+}
+.well{
+    border-block-end-style: double;
+    border-radius: 0%;
+}
+.navbar-brand{
+    font-size: 24px;
+    font-family: "Pacifico";
+    float: inherit;
+}
+.navbar{
+    border: 100px;
+    
+    background-color: #f8f8f8;
+    background-clip: content-box;
+    border-radius: 0%;
+    
+    /* background-image: linear-gradient(#659dbd, #2f2fa2) */
+    
+}
+
+.form_font{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+
+input[type=range] {
+    
+    width: 60%;
+}
+
+.col-sm-4{
+    align-self: center
+}
+output{
+    font-style: inherit;
+    display: block;
+    padding-top: 15px;
+    padding-left: 0px;
+}
+.col-sm-5{
+    padding: 15px;
+}
+.emi_sheet{
+    padding-left: 140px;
+}
+.form-control{
+    width: 300px;
+}
+.bank_interest_details{
+    margin-left: 35%;
+}
+.bank_intrest_info{
+    padding: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    #calc-contain{
+        position: relative;
+        margin: 0px 50px;
+        width: 100%;
+        
+    }
+    body{
+        width: 100%;
+        padding: 0%;
+        margin: 0%;;
+    }
+    .emi_sheet{
+        padding-left: 0px;
+    }
+    .vision_mission{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+
+    }
+    
+    
+}
