@@ -13,7 +13,7 @@
     "body-parser": "^1.19.0",
     "ejs": "^2.6.1",
     "express": "^4.17.1",
-    "mongoose": "^5.6.1",
+    "mongoose": "^5.7.5",
     "open": "^6.3.0",
     "rangeslider.js": "^2.3.2"
   }
